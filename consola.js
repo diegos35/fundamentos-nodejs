@@ -15,3 +15,10 @@ var table = [
 ]
 
 console.table(table);
+
+
+function function1  ()  {
+    console.group('function1');
+    function2();
+    console.groupEnd();
+}
